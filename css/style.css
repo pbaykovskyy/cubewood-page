@@ -1,4 +1,4 @@
-.navigation{
+.navigation{ /* Блок навігації */
     position: relative;
     padding: 1%;
     border: gray;
@@ -9,31 +9,31 @@
     text-align: right;
     width: 68em;
 }
-.logo{
+.logo{/* банер кубвуд */
     position: relative;
     left: 20%;
     width: 100px;
     height: 100px;
     padding: 1px;
-    margin-bottom: -2%;
+    margin-bottom: -5%;
     overflow: inherit;
-    left: -1%;
+    left: 0;
 }
-body{
+body{/* тіло сайта */
     position: relative;
     width: 80em;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
-*{
+*{/* все що є на сайті */
     margin: 0;
     padding: 0;
 }
-body img{
+body img{/* всі картинки в тілі */
     text-align: center
 }
 
-.navigation a{
+.navigation a{/* кнопки в навігації */
     text-decoration: none;
     color: gray;
     margin-left: 2%;
@@ -44,7 +44,7 @@ body img{
     margin-left: 2%;
     margin-right: 2%;
 }
-.navigation a:hover{
+.navigation a:hover{/* при наведенні на кнопку в навігації */
     position: relative;
     padding: 14px;
     font-weight: bold;
@@ -53,7 +53,7 @@ body img{
     color: black;
     
 }
-.navigation a:not(hover){
+.navigation a:not(hover){/* коли на кнопку не неведено в навігації */
     transition-duration: 0.6s;
 }
 
@@ -62,7 +62,7 @@ header{
     margin-right: 1px;
    
 }
-.body{
+.body{/* класс тіла */
     margin: 0 auto;
     width: 70em;
 }
@@ -84,7 +84,7 @@ header{
     margin-left: 0.5%;
     margin-right: 0.5%;
 }
-.footer{
+.footer{/* підвал */
     position: relative;
     border-right: solid #c9c9c9 1px;
     text-align: left;
@@ -119,7 +119,7 @@ footer{
     font-size: 15px;
 }
 
-main{
+main{/* там де картинки ) */
     word-spacing: 5px;
     position: relative;
     text-align:auto;
@@ -127,7 +127,7 @@ main{
     margin-left: 0.3em;
     box-sizing: border-box;
 }
-.cube15{
+.cube15{/* картинки */
     margin-top: 2%;
     display:inline-block;
     margin-bottom: 1%;
@@ -135,8 +135,8 @@ main{
     font-size: 0.9em;
 }
 .cube15 img{
-    text-align: center;
-}
+    text-acenter;
+lign: }
 figcaption{
     color: brown;
     opacity: 0.8;
@@ -147,7 +147,11 @@ a{
 }
 
 
-main img:hover{
-    opacity: 0.4;
+main img:hover{ /* при наведенні на картинку в mine */
+    opacity: 0.5;
     transition-duration: 0.4s;
+}
+main img:not(hover){
+    transition-duration: 0.9s;
+    opacity: 1;
 }
