@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+         <meta charset="utf-8">
+         <link rel="shortcut icon" href="favicon.ico" /> 
+        <link rel="stylesheet" href="css/style2.css" />
+        <title>Cube Wood</title>
+    </head>
+    <body>
+                <div class="body">
+        <header>
+           <img class="logo" src="images/logo.jpg" height="100px"/img>
+           <div class="sm">
+                <a href="https://www.instagram.com/cube_wood/" target="_blank"> <img id="instagram" src="images/instagram.png" width="22px"/></a>
+                <a href="https://www.facebook.com/cubwood/" target="_blank"> <img id="facebook" src="images/facebook.png" width="22px"/></a>
+                <a href="https://vk.com/cubewood"  target="_blank"> <img id="vk" src="images/vk.png" width="22px"/></a>
+                
+                </div>
+       </header>
+       <nav class="navigation">
+          
+           <div class="navigation-buttons">
+                     
+                    <a href="/"> Головна </a>
+                <a href="https://www.etsy.com/shop/Cubewood?ref=hdr_shop_menu" target="_blank"> Etsy</a>
+                <a href="#"> Про нас </a> 
+                <a href="#"> Доставка і оплата </a>
+                <a href="#"> Зв'язатися з нами</a>
+                <a href="#"> Контакти</a>
+           </div> 
+       </nav>
+       <script type="text/javascript">
+                  var number = 0;
+                  var auto = setInterval("next()", 10000);
+       function next(button){
+           var img;
+           number++;
+          if(number>2){
+               number = 0;
+           }
+           if(number<0){
+               number = 2;
+           }
+        if(number== 0){
+           img = "images/"+"yellow1.jpg";
+           document.getElementById('image').src = img;}
+        if(number==1){
+           img = "images/"+"skinny_light.jpg";
+           document.getElementById('image').src = img;}
+        if(number==2){
+           img = "images/"+"2.jpg";
+           document.getElementById('image').src = img;}
+           /*Сюда копіювати те що з верху ) але не в комент!!*/
+       }
+       function back(back){
+           number = number - 2;
+           next();
+           
+       }
+       </script>
+       
+       <div class="main_container" >
+           <div class="img_cube15">
+            <div class="galeru">
+              <img id="image" style="transition-duration: 0.5s" src="images/yellow1.jpg" height="500px" width="600px" alt="Cube 15"> </img>
+              <div onclick="next (this)" class="next"><button name="next"><img src="images/next.png" height="40px" alt="next" /></button></div>
+              <div onclick="back (this)" class="back"><button name="back" type="submit"><img src="images/back.png" height="40px" alt="bacl" /></button></div> <br>
+            </div>
+           </div>
+            <div class="text_cube15">
+               <h2>Cube 15 Walnut Wood</h2>
+               <p>Виготовлена з масиву горіха з відмінною текстурою дерева. Особливо підійде для створення неповторної та затишної атмосфери у вашій оселі. Можна використовувати як додаткове джерело для загального освітлення, або ж в якості акцентованого зонального світла. 
+                Деревина лампи оброблена натуральним і екологічно чистим маслом з воском. <br><br>
+                Розмір складає – 150*150*150 (мм).<br> <br>
+                Цоколь для лампочки стандарту E27.<br><br><span  id="warning"> УВАГА!</span> Використовувати тільки електроощадні лампочками! Лампочка в комплект не входить. За бажанням клієнта і за додаткову оплату можемо комплектувати світильник LED лампочкою потужністю від 5 до 8 Вт. Але все ж таки рекомендуємо купити лампочку за місцем проживання для збереження гарантії.<br> <br>
+                Лампа укомплектована оранжевим проводом в тканинній обмотці довжиною 1,8 м. (довжина може бути змінена за бажанням клієнта).<br><br> Цоколь, вимикач та вилка – чорного кольору.
+                </p> <br>
+                <p><b> Ціна 450 грн.</b> </p> 
+            <br>
+
+            </div>
+           
+       </div>
+       <footer>
+           <div class="footer">
+                <p>Контакти</p>
+                Львів<br>
+                0038 0976248321<br>
+                0038 0988269441
+                cubewood.nature@gmail.com
+           </div>
+           <div class="copyright">
+                 <p> Copyright 2017. Cubewood </p> 
+           </div>
+         
+       </footer>
+       </div>
+    </body>
+</html>
